@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,100..200,100..900;1,100..200,100..900&family=Alata&family=Antic+Slab&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Comic+Neue&family=Didact+Gothic&family=Gruppo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=News+Cycle&family=PT+Sans&family=PT+Sans+Caption&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Ropa+Sans&family=Sen:wght@400..800&family=Underdog&family=Varela+Round&display=swap');
+
+// font styles
+$roboto-font:"Roboto", sans-serif;
+$raleway-font:"Raleway", sans-serif;
+$underdog-font:"Underdog", system-ui;
+$gruppo-font:"Gruppo", sans-serif;
+$adventpro-font:"Advent Pro", sans-serif;
+$didactgothic-font:"Didact Gothic", sans-serif;
+$varelaground-font:"Varela Round", sans-serif;
+$anticslab-font:"Antic Slab", serif;
+$alata-font:"Alata", sans-serif;
+$comicneue-font:"Comic Neue", cursive;
+$ptsanscaption:"PT Sans Caption", sans-serif;
+$newscycle-font:"News Cycle", sans-serif;
+$sen-font:"Sen", sans-serif;
+$montserrat-font:"Montserrat", sans-serif;
+$ptsans-font:"PT Sans", sans-serif;
+$cascadia-font:"Cascadia Mono", sans-serif;
+$quicksand-font:"Quicksand", sans-serif;
+$ropa-sans-font:"Ropa Sans", sans-serif;
+
+// font weight
+$font-weights:(
+    "light":200,
+    "regular":400,
+    "medium":500,
+    "bold":600,
+    'extrabold':800
+);

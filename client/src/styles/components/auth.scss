@@ -1,0 +1,101 @@
+@use '../constants/_fonts.scss' as *;
+
+//input box
+input.input-box{
+    width:100%;
+    height:2.2rem;
+    box-sizing:border-box;
+    outline:0;
+    background-color: rgb(240, 240, 240);
+    border:0;
+    padding: 0.3rem;
+    border-radius:0.25rem;
+    font-family: $comicneue-font;
+    font-size:1rem;
+    font-weight:300;
+    box-shadow:0px 0px 2px rgb(180, 180, 180);
+    &::placeholder{
+        text-transform: capitalize;
+        font-family: $comicneue-font;
+        font-weight:300;
+        font-size:1rem;
+    }
+    &:focus{
+        outline:0;
+    }
+}
+
+// password input box
+.password{
+    position: relative;
+    width:100%;
+    input.password-input{
+        width:100%;
+        height:2.2rem;
+        box-sizing:border-box;
+        outline:0;
+        background-color: rgb(240, 240, 240);
+        border:none;
+        padding: 0.3rem;
+        border-radius:0.25rem;
+        font-family: $comicneue-font;
+        font-size:1rem;
+        font-weight:300;
+        box-shadow:0px 0px 2px rgb(180, 180, 180);
+        &::placeholder{
+            text-transform: capitalize;
+            font-family: $comicneue-font;
+            font-weight:300;
+            font-size:1rem;
+        }
+        &:focus{
+            outline:0;
+        }
+    }
+    .eye-btn{
+        position: absolute;
+        top: 0;
+        right: 0.25rem;
+        bottom:0;
+        border:0;
+        background-color:transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// auth or 
+.auth-or{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-block:0.75rem;
+    hr{
+        width: 33%;
+    }
+    .auth-message{
+        font-family: $varelaground-font;
+        text-transform: capitalize;
+        font-size:0.85rem;
+    }
+}
+
+// google auth btn
+.google-auth-btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    background-color:white;
+    border:0;
+    border-radius:0.3rem;
+    box-shadow:0px 0px 2px rgb(230, 230, 230);
+    font-family: $didactgothic-font;
+    font-size:1.05rem;
+    font-weight:400;
+    text-transform:capitalize ;
+}

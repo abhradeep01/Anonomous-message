@@ -18,6 +18,8 @@ export default defineConfig({
       short_name: './',
       description: 'anon message',
       theme_color: '#ffffff',
+      start_url:'/',
+      display:'standalone'
     },
 
     workbox: {
@@ -32,5 +34,9 @@ export default defineConfig({
       suppressWarnings: true,
       type: 'module',
     },
+    
   })],
+  server:{
+    host:true
+  }
 })
